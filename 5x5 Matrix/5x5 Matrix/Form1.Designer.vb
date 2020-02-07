@@ -49,6 +49,7 @@ Partial Class Form1
         Me.Button23 = New System.Windows.Forms.Button()
         Me.Button24 = New System.Windows.Forms.Button()
         Me.Button25 = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Button1
@@ -56,7 +57,7 @@ Partial Class Form1
         Me.Button1.BackColor = System.Drawing.Color.Gray
         Me.Button1.Enabled = False
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Location = New System.Drawing.Point(24, 31)
+        Me.Button1.Location = New System.Drawing.Point(27, 38)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(59, 57)
         Me.Button1.TabIndex = 0
@@ -70,7 +71,7 @@ Partial Class Form1
         Me.Button2.BackColor = System.Drawing.Color.Gray
         Me.Button2.Enabled = False
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Location = New System.Drawing.Point(89, 31)
+        Me.Button2.Location = New System.Drawing.Point(92, 38)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(59, 57)
         Me.Button2.TabIndex = 1
@@ -81,7 +82,7 @@ Partial Class Form1
         Me.Button3.BackColor = System.Drawing.Color.Gray
         Me.Button3.Enabled = False
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Location = New System.Drawing.Point(154, 31)
+        Me.Button3.Location = New System.Drawing.Point(157, 38)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(59, 57)
         Me.Button3.TabIndex = 2
@@ -92,7 +93,7 @@ Partial Class Form1
         Me.Button4.BackColor = System.Drawing.Color.Gray
         Me.Button4.Enabled = False
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button4.Location = New System.Drawing.Point(219, 31)
+        Me.Button4.Location = New System.Drawing.Point(222, 38)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(59, 57)
         Me.Button4.TabIndex = 3
@@ -103,7 +104,7 @@ Partial Class Form1
         Me.Button5.BackColor = System.Drawing.Color.Gray
         Me.Button5.Enabled = False
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button5.Location = New System.Drawing.Point(284, 31)
+        Me.Button5.Location = New System.Drawing.Point(287, 38)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(59, 57)
         Me.Button5.TabIndex = 4
@@ -114,7 +115,7 @@ Partial Class Form1
         Me.Button6.BackColor = System.Drawing.Color.Gray
         Me.Button6.Enabled = False
         Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button6.Location = New System.Drawing.Point(24, 94)
+        Me.Button6.Location = New System.Drawing.Point(27, 101)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(59, 57)
         Me.Button6.TabIndex = 5
@@ -125,7 +126,7 @@ Partial Class Form1
         Me.Button7.BackColor = System.Drawing.Color.Gray
         Me.Button7.Enabled = False
         Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button7.Location = New System.Drawing.Point(89, 94)
+        Me.Button7.Location = New System.Drawing.Point(92, 101)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(59, 57)
         Me.Button7.TabIndex = 6
@@ -136,7 +137,7 @@ Partial Class Form1
         Me.Button8.BackColor = System.Drawing.Color.Gray
         Me.Button8.Enabled = False
         Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button8.Location = New System.Drawing.Point(154, 94)
+        Me.Button8.Location = New System.Drawing.Point(157, 101)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(59, 57)
         Me.Button8.TabIndex = 7
@@ -147,7 +148,7 @@ Partial Class Form1
         Me.Button9.BackColor = System.Drawing.Color.Gray
         Me.Button9.Enabled = False
         Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button9.Location = New System.Drawing.Point(219, 94)
+        Me.Button9.Location = New System.Drawing.Point(222, 101)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(59, 57)
         Me.Button9.TabIndex = 8
@@ -158,7 +159,7 @@ Partial Class Form1
         Me.Button10.BackColor = System.Drawing.Color.Gray
         Me.Button10.Enabled = False
         Me.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button10.Location = New System.Drawing.Point(284, 94)
+        Me.Button10.Location = New System.Drawing.Point(287, 101)
         Me.Button10.Name = "Button10"
         Me.Button10.Size = New System.Drawing.Size(59, 57)
         Me.Button10.TabIndex = 9
@@ -169,7 +170,7 @@ Partial Class Form1
         Me.Button11.BackColor = System.Drawing.Color.Gray
         Me.Button11.Enabled = False
         Me.Button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button11.Location = New System.Drawing.Point(24, 157)
+        Me.Button11.Location = New System.Drawing.Point(27, 164)
         Me.Button11.Name = "Button11"
         Me.Button11.Size = New System.Drawing.Size(59, 57)
         Me.Button11.TabIndex = 10
@@ -180,7 +181,7 @@ Partial Class Form1
         Me.Button12.BackColor = System.Drawing.Color.Gray
         Me.Button12.Enabled = False
         Me.Button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button12.Location = New System.Drawing.Point(154, 157)
+        Me.Button12.Location = New System.Drawing.Point(92, 164)
         Me.Button12.Name = "Button12"
         Me.Button12.Size = New System.Drawing.Size(59, 57)
         Me.Button12.TabIndex = 11
@@ -191,10 +192,10 @@ Partial Class Form1
         Me.Button13.BackColor = System.Drawing.Color.Gray
         Me.Button13.Enabled = False
         Me.Button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button13.Location = New System.Drawing.Point(89, 157)
+        Me.Button13.Location = New System.Drawing.Point(157, 164)
         Me.Button13.Name = "Button13"
         Me.Button13.Size = New System.Drawing.Size(59, 57)
-        Me.Button13.TabIndex = 11
+        Me.Button13.TabIndex = 12
         Me.Button13.UseVisualStyleBackColor = False
         '
         'Button14
@@ -202,10 +203,10 @@ Partial Class Form1
         Me.Button14.BackColor = System.Drawing.Color.Gray
         Me.Button14.Enabled = False
         Me.Button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button14.Location = New System.Drawing.Point(219, 157)
+        Me.Button14.Location = New System.Drawing.Point(222, 164)
         Me.Button14.Name = "Button14"
         Me.Button14.Size = New System.Drawing.Size(59, 57)
-        Me.Button14.TabIndex = 12
+        Me.Button14.TabIndex = 13
         Me.Button14.UseVisualStyleBackColor = False
         '
         'Button15
@@ -213,10 +214,10 @@ Partial Class Form1
         Me.Button15.BackColor = System.Drawing.Color.Gray
         Me.Button15.Enabled = False
         Me.Button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button15.Location = New System.Drawing.Point(284, 157)
+        Me.Button15.Location = New System.Drawing.Point(287, 164)
         Me.Button15.Name = "Button15"
         Me.Button15.Size = New System.Drawing.Size(59, 57)
-        Me.Button15.TabIndex = 13
+        Me.Button15.TabIndex = 14
         Me.Button15.UseVisualStyleBackColor = False
         '
         'Button16
@@ -224,10 +225,10 @@ Partial Class Form1
         Me.Button16.BackColor = System.Drawing.Color.Gray
         Me.Button16.Enabled = False
         Me.Button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button16.Location = New System.Drawing.Point(24, 220)
+        Me.Button16.Location = New System.Drawing.Point(27, 227)
         Me.Button16.Name = "Button16"
         Me.Button16.Size = New System.Drawing.Size(59, 57)
-        Me.Button16.TabIndex = 14
+        Me.Button16.TabIndex = 15
         Me.Button16.UseVisualStyleBackColor = False
         '
         'Button17
@@ -235,10 +236,10 @@ Partial Class Form1
         Me.Button17.BackColor = System.Drawing.Color.Gray
         Me.Button17.Enabled = False
         Me.Button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button17.Location = New System.Drawing.Point(89, 220)
+        Me.Button17.Location = New System.Drawing.Point(92, 227)
         Me.Button17.Name = "Button17"
         Me.Button17.Size = New System.Drawing.Size(59, 57)
-        Me.Button17.TabIndex = 15
+        Me.Button17.TabIndex = 16
         Me.Button17.UseVisualStyleBackColor = False
         '
         'Button18
@@ -246,10 +247,10 @@ Partial Class Form1
         Me.Button18.BackColor = System.Drawing.Color.Gray
         Me.Button18.Enabled = False
         Me.Button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button18.Location = New System.Drawing.Point(154, 220)
+        Me.Button18.Location = New System.Drawing.Point(157, 227)
         Me.Button18.Name = "Button18"
         Me.Button18.Size = New System.Drawing.Size(59, 57)
-        Me.Button18.TabIndex = 16
+        Me.Button18.TabIndex = 17
         Me.Button18.UseVisualStyleBackColor = False
         '
         'Button19
@@ -257,10 +258,10 @@ Partial Class Form1
         Me.Button19.BackColor = System.Drawing.Color.Gray
         Me.Button19.Enabled = False
         Me.Button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button19.Location = New System.Drawing.Point(219, 220)
+        Me.Button19.Location = New System.Drawing.Point(222, 227)
         Me.Button19.Name = "Button19"
         Me.Button19.Size = New System.Drawing.Size(59, 57)
-        Me.Button19.TabIndex = 17
+        Me.Button19.TabIndex = 18
         Me.Button19.UseVisualStyleBackColor = False
         '
         'Button20
@@ -268,10 +269,10 @@ Partial Class Form1
         Me.Button20.BackColor = System.Drawing.Color.Gray
         Me.Button20.Enabled = False
         Me.Button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button20.Location = New System.Drawing.Point(284, 220)
+        Me.Button20.Location = New System.Drawing.Point(287, 227)
         Me.Button20.Name = "Button20"
         Me.Button20.Size = New System.Drawing.Size(59, 57)
-        Me.Button20.TabIndex = 18
+        Me.Button20.TabIndex = 19
         Me.Button20.UseVisualStyleBackColor = False
         '
         'Button21
@@ -279,10 +280,10 @@ Partial Class Form1
         Me.Button21.BackColor = System.Drawing.Color.Gray
         Me.Button21.Enabled = False
         Me.Button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button21.Location = New System.Drawing.Point(24, 283)
+        Me.Button21.Location = New System.Drawing.Point(27, 290)
         Me.Button21.Name = "Button21"
         Me.Button21.Size = New System.Drawing.Size(59, 57)
-        Me.Button21.TabIndex = 19
+        Me.Button21.TabIndex = 20
         Me.Button21.UseVisualStyleBackColor = False
         '
         'Button22
@@ -290,10 +291,10 @@ Partial Class Form1
         Me.Button22.BackColor = System.Drawing.Color.Gray
         Me.Button22.Enabled = False
         Me.Button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button22.Location = New System.Drawing.Point(89, 283)
+        Me.Button22.Location = New System.Drawing.Point(92, 290)
         Me.Button22.Name = "Button22"
         Me.Button22.Size = New System.Drawing.Size(59, 57)
-        Me.Button22.TabIndex = 20
+        Me.Button22.TabIndex = 21
         Me.Button22.UseVisualStyleBackColor = False
         '
         'Button23
@@ -301,10 +302,10 @@ Partial Class Form1
         Me.Button23.BackColor = System.Drawing.Color.Gray
         Me.Button23.Enabled = False
         Me.Button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button23.Location = New System.Drawing.Point(154, 283)
+        Me.Button23.Location = New System.Drawing.Point(157, 290)
         Me.Button23.Name = "Button23"
         Me.Button23.Size = New System.Drawing.Size(59, 57)
-        Me.Button23.TabIndex = 21
+        Me.Button23.TabIndex = 22
         Me.Button23.UseVisualStyleBackColor = False
         '
         'Button24
@@ -312,10 +313,10 @@ Partial Class Form1
         Me.Button24.BackColor = System.Drawing.Color.Gray
         Me.Button24.Enabled = False
         Me.Button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button24.Location = New System.Drawing.Point(219, 283)
+        Me.Button24.Location = New System.Drawing.Point(222, 290)
         Me.Button24.Name = "Button24"
         Me.Button24.Size = New System.Drawing.Size(59, 57)
-        Me.Button24.TabIndex = 22
+        Me.Button24.TabIndex = 23
         Me.Button24.UseVisualStyleBackColor = False
         '
         'Button25
@@ -323,17 +324,30 @@ Partial Class Form1
         Me.Button25.BackColor = System.Drawing.Color.Gray
         Me.Button25.Enabled = False
         Me.Button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button25.Location = New System.Drawing.Point(284, 283)
+        Me.Button25.Location = New System.Drawing.Point(287, 290)
         Me.Button25.Name = "Button25"
         Me.Button25.Size = New System.Drawing.Size(59, 57)
-        Me.Button25.TabIndex = 23
+        Me.Button25.TabIndex = 24
         Me.Button25.UseVisualStyleBackColor = False
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.Label1.Location = New System.Drawing.Point(102, 366)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(156, 29)
+        Me.Label1.TabIndex = 25
+        Me.Label1.Text = "LED MATRIX"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(374, 382)
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.ClientSize = New System.Drawing.Size(374, 419)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button25)
         Me.Controls.Add(Me.Button24)
         Me.Controls.Add(Me.Button23)
@@ -363,6 +377,7 @@ Partial Class Form1
         Me.Name = "Form1"
         Me.Text = "5x5 Matrix"
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -392,4 +407,5 @@ Partial Class Form1
     Friend WithEvents Button23 As Button
     Friend WithEvents Button24 As Button
     Friend WithEvents Button25 As Button
+    Friend WithEvents Label1 As Label
 End Class
